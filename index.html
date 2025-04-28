@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Kelzzzcodes Portfolio</title>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <nav class="px-4 py-2 bg-white flex justify-between items-center fixed w-full top-0  text-black">
+      <h1 class="text-yellow-700">Kelzzz</h1>
+
+      <div class="flex items-center gap-4 ">
+        <a
+          href="https://github.com/kelzzzcodes/portfolioAssignment"
+          target="_blank"
+          class="hover:underline"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kelechi-otugbuali/"
+          target="_blank"
+          class="hover:underline"
+        >
+          Linkedin
+        </a>
+        <!-- Toggle button -->
+        <button
+          id="themeToggle"
+          class="bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-600"
+        >
+          Toggle Theme
+        </button>
+      </div>
+    </nav>
+
+    <main
+      class="mt-16 flex flex-col gap-4 justify-center items-center p-4"
+    >
+      <!-- Profile picture -->
+      <section>
+        <img
+          src="./assets/profilepix.jpg"
+          alt="profile_pic"
+          class="max-w-64 rounded-xl"
+        />
+      </section>
+
+      <!-- Bio section -->
+      <section class="max-w-84 md:max-w-164 flex flex-col gap-2">
+        <div class="flex flex-col gap-2">
+          <h2 class="font-semibold">
+            Name :
+          </h2>
+          <p>Otugbuali Kelechi Prince</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h2 class="font-semibold">What I do :</h2>
+          <p>
+            I’m a passionate Frontend Developer focused on building clean,
+            responsive, and user-friendly web interfaces. I work with modern
+            tools like HTML, CSS, JavaScript, and React. I love turning designs
+            into real, interactive experiences that work beautifully on all
+            devices.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <h2 class="font-semibold">What I am Learning :</h2>
+          <p>
+            Currently diving deeper into Tailwind CSS and Next.js to improve my
+            development workflow and performance. Also exploring UI/UX best
+            practices to enhance design thinking.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-semibold">Hobbies:</h2>
+          <p>
+            When I’m not coding, I enjoy listening to music 🎶, playing football
+            ⚽️, and exploring new tech. I also love watching Real Madrid
+            dominate! 💯
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white p-4 flex flex-col gap-2 text-sm text-gray-700">
+      <section class="flex flex-col items-center gap-2">
+        <h1 class="text-yellow-700">Kelzzz</h1>
+
+        <div class="flex gap-4">
+          <a
+            href="https://github.com/kelzzzcodes/portfolioAssignment"
+            target="_blank"
+            class="hover:underline"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kelechi-otugbuali/"
+            target="_blank"
+            class="hover:underline"
+          >
+            Linkedin
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section class="flex items-center justify-center mt-2">
+        <p>
+          © 2025 with love ❤️
+          <span class="text-blue-900">kelzzzcodes</span>
+        </p>
+      </section>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="themeToggler.js"></script>
+  </body>
+</html>
