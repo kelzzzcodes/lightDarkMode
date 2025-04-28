@@ -4,7 +4,7 @@ A simple, responsive one-page portfolio built using Tailwind CSS via CDN. This p
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live]()
+🔗 [View Portfolio Live](https://leafy-bunny-17cb95.netlify.app/)
 
 ---
 
@@ -32,4 +32,4 @@ A simple, responsive one-page portfolio built using Tailwind CSS via CDN. This p
 
 1. Clone the repository:
    ```bash
-   git clone
+   git clone https://github.com/kelzzzcodes/lightDarkMode
